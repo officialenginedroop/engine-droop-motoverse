@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Engine Droop : Motoverse — Where Cars Become Culture.">
+<meta name="theme-color" content="#000000">
+<title>Engine Droop : Motoverse</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="assets/engine-droop-logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="loader" id="loader">
+    <div class="loader-mark"><img src="assets/engine-droop-logo.png" alt="Engine Droop"></div>
+    <div class="loader-line"><span></span></div>
+    <div class="loader-text">ENGINE DROOP : MOTOVERSE</div>
+</div>
+
+<header id="header">
+    <a class="brand" href="#home" aria-label="Engine Droop : Motoverse">
+        <img src="assets/engine-droop-logo.png" alt="Engine Droop logo">
+        <span>ENGINE DROOP<small>MOTOVERSE</small></span>
+    </a>
+
+    <nav class="desktop-nav">
+        <a href="#about">ABOUT</a>
+        <a href="#team">PEOPLE</a>
+        <a href="#events">EVENTS</a>
+        <a href="#rules">RULES</a>
+    </nav>
+
+    <a class="header-cta" id="headerDiscord" href="#" target="_blank" rel="noopener">JOIN DISCORD ↗</a>
+
+    <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+    </button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+    <a href="#about">ABOUT</a>
+    <a href="#team">PEOPLE</a>
+    <a href="#events">EVENTS</a>
+    <a href="#rules">RULES</a>
+    <a id="mobileDiscord" href="#" target="_blank" rel="noopener">JOIN DISCORD ↗</a>
+</div>
+
+<main>
+
+<section class="hero" id="home">
+    <div class="hero-image"></div>
+    <div class="hero-overlay"></div>
+    <div class="grain"></div>
+    <div class="hero-content reveal">
+        <div class="eyebrow">WELCOME TO ENGINE DROOP</div>
+        <h1>ENGINE<br><span>DROOP</span></h1>
+        <div class="hero-line"></div>
+        <h2>WHERE CARS<br>BECOME CULTURE.</h2>
+        <p>A vehicle-first FiveM experience built around cars, racing, clubs, competition and automotive culture.</p>
+        <div class="hero-actions">
+            <a class="button button-solid" href="#about">ENTER MOTOVERSE ↘</a>
+            <a class="button button-outline" id="heroDiscord" href="#" target="_blank" rel="noopener">DISCORD ↗</a>
+        </div>
+    </div>
+    <div class="hero-meta">
+        <span>ENGINE DROOP : MOTOVERSE</span>
+        <span>SCROLL TO EXPLORE ↓</span>
+    </div>
+</section>
+
+<section class="section section-white" id="about">
+    <div class="section-label">01 — WHAT IS MOTOVERSE?</div>
+    <div class="split-heading">
+        <h2 class="display">MORE THAN<br><span>A SERVER.</span></h2>
+        <div class="section-copy">
+            <p>Engine Droop : Motoverse is a vehicle-first FiveM roleplay experience built around the culture of cars.</p>
+            <p>Build your machine. Create your club. Enter the grid. Host events. Chase records. Build your reputation.</p>
+            <p>No gang wars. No gun-focused gameplay. <strong>Just cars, competition and community.</strong></p>
+        </div>
+    </div>
+
+    <div class="feature-strip">
+        <article><span>01</span><h3>VEHICLES</h3><p>Your build is your identity.</p></article>
+        <article><span>02</span><h3>RACING</h3><p>Speed, skill and competition.</p></article>
+        <article><span>03</span><h3>CLUBS</h3><p>Build your own automotive community.</p></article>
+        <article><span>04</span><h3>CULTURE</h3><p>Where cars become a lifestyle.</p></article>
+    </div>
+</section>
+
+<section class="section section-dark motoverse-section">
+    <div class="motoverse-image"></div>
+    <div class="dark-overlay"></div>
+    <div class="motoverse-content reveal">
+        <div class="section-label">02 — THE MOTOVERSE</div>
+        <h2 class="display white">BUILT AROUND<br><span>THE MACHINE.</span></h2>
+        <p class="large-copy">A world where the road, the build and the people behind the wheel matter more than anything else.</p>
+        <div class="motoverse-tags">
+            <span>RACING</span><span>CAR CLUBS</span><span>AUTO SHOWS</span>
+            <span>TIME TRIALS</span><span>CHAMPIONSHIPS</span><span>AUTOMOTIVE CULTURE</span>
+        </div>
+    </div>
+</section>
+
+<section class="section section-black team-section" id="team">
+    <div class="section-label">03 — THE PEOPLE BEHIND IT</div>
+    <div class="split-heading team-heading">
+        <h2 class="display white">THE PEOPLE<br><span>BEHIND IT.</span></h2>
+        <p class="section-copy white-copy">Engine Droop : Motoverse is built by people who share the same passion for cars, competition and automotive culture.</p>
+    </div>
+    <div class="team-grid" id="teamGrid"></div>
+</section>
+
+<section class="section section-white" id="events">
+    <div class="section-label">04 — EVENTS</div>
+    <div class="split-heading">
+        <h2 class="display">THE GRID<br><span>IS YOURS.</span></h2>
+        <p class="section-copy">Motoverse events are built around competition, creativity and the automotive community. These are the event formats that exist within Engine Droop.</p>
+    </div>
+    <div class="events-grid" id="eventsGrid"></div>
+</section>
+
+<section class="rules-section" id="rules">
+    <div class="rules-image"></div>
+    <div class="dark-overlay"></div>
+    <div class="rules-content reveal">
+        <div class="section-label">05 — THE CODE</div>
+        <h2 class="display white">PLAY FAIR.<br><span>DRIVE HARD.</span></h2>
+        <p>Motoverse is built on competition, respect and automotive culture. Know the rules before you enter.</p>
+        <a class="button button-solid" id="rulesButton" href="#" target="_blank" rel="noopener">VIEW RULEBOOK ↗</a>
+    </div>
+</section>
+
+<section class="join-section">
+    <div class="join-inner reveal">
+        <div class="section-label">06 — JOIN THE COMMUNITY</div>
+        <h2>ENTER THE<br><span>MOTOVERSE.</span></h2>
+        <p>Find your people. Build your machine. Become part of Engine Droop.</p>
+        <a class="button button-solid" id="joinDiscord" href="#" target="_blank" rel="noopener">JOIN ENGINE DROOP ↗</a>
+        <div class="socials" id="socialLinks"></div>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <div class="footer-top">
+        <a class="brand" href="#home"><img src="assets/engine-droop-logo.png" alt="Engine Droop logo"><span>ENGINE DROOP<small>WHERE CARS BECOME CULTURE.</small></span></a>
+        <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    </div>
+    <div class="footer-bottom">
+        <span>© 2026 ENGINE DROOP : MOTOVERSE</span>
+        <div><a href="#about">ABOUT</a><a href="#team">PEOPLE</a><a href="#events">EVENTS</a><a href="#rules">RULES</a></div>
+        <span class="disclaimer">NOT AFFILIATED WITH ROCKSTAR GAMES / TAKE-TWO / CFX.RE</span>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
